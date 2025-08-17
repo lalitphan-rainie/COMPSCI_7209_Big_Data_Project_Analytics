@@ -77,7 +77,7 @@ For interactive analysis, you can run the code in Jupyter notebooks.
 
 ## Key Findings & Methodology
 
-All details of this project can be found in COMP_SCI_7209_Assignment4_a1932456.pdf
+All details of this project can be found in `COMP_SCI_7209_Assignment4_a1932456.pdf`
 
 ## File Descriptions
 
