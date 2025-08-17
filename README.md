@@ -8,7 +8,8 @@ This project analyzes the relationship between crime rates and housing prices th
 ```
 ├── Data/
 │   ├── Clean_Crime_Stats.csv
-│   └── Clean_House_Price.csv
+│   ├── Clean_House_Price.csv
+│   └── ADL_Suburbs_shp.zip
 ├── Code/
 │   ├── Crime_House_Suburbs_Modelling.ipynb
 │   └── EDA_SA_Crime_House_Suburbs.ipynb
@@ -20,12 +21,14 @@ This project analyzes the relationship between crime rates and housing prices th
 
 ## Dataset Description
 
-The project uses two main datasets:
+The project uses 3 main datasets:
 
 - **SA Crime Statistics**: Contains cleaned crime statistics including crime types, frequencies, and geographic information
 - **SA House Rate & Sales Data**: Contains cleaned housing market data including prices, property characteristics, and location details
 
 Both datasets have been preprocessed and cleaned for analysis.
+
+- **Adelaide Suburb Shape Files**: Contains Adelaide Suburb geographical boundaries shape file, extract the zip file before use.
 
 ## Setup Instructions
 
@@ -58,15 +61,30 @@ Both datasets have been preprocessed and cleaned for analysis.
    pip install -r requirements.txt
    ```
 
+4. **Install Jupyter Notebook**
+   ```bash
+   pip install jupyter
+   ```
+   
+   Or if you prefer JupyterLab:
+   ```bash
+   pip install jupyterlab
+   ```
+
 ### Using Jupyter Notebooks
 
 For interactive analysis, you can run the code in Jupyter notebooks.
+
+## Key Findings & Methodology
+
+All details of this project can be found in COMP_SCI_7209_Assignment4_a1932456.pdf
 
 ## File Descriptions
 
 ### Data Folder
 - `Clean_Crime_Stats.csv`: Preprocessed crime statistics data
 - `Clean_House_Price.csv`: Preprocessed housing market data
+- `ADL_Suburbs_shp.zip`: Geographical boundaries shape file
 
 ### Code Folder
 - `EDA_SA_Crime_House_Suburbs.ipynb`: Code for initial data exploration and statistical analysis
@@ -78,9 +96,11 @@ This is a course assignment project. For any questions or suggestions, please co
 
 ## Author
 
-Lalitphan Sae-teoh
-COMPSCI 7209 Big Data Project & Analysis - (Trimester2/2025) 
-The University of Adelaide
+**Name**: Lalitphan Sae-teoh
+
+**Course Name**: COMPSCI 7209 Big Data Project & Analysis - (Trimester2/2025) 
+
+**Institute**: The University of Adelaide
 
 ## Acknowledgments
 
