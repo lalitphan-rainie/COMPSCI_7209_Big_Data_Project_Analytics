@@ -100,7 +100,7 @@ This is a course assignment project. For any questions or suggestions, please co
 
 **Course Name**: COMPSCI 7209 Big Data Project & Analysis - (Trimester2/2025) 
 
-**Institute**: The University of Adelaide
+**Institution**: The University of Adelaide
 
 ## Acknowledgments
 
